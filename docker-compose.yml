@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  backend:
+    image: yuktax/backend:latest
+    container_name: backend_container
+    ports:
+      - "8081:8081"
+
+  frontend:
+    image: chinmay1104/frontend:latest
+    container_name: frontend_container
+    ports:
+      - "3000:3000"

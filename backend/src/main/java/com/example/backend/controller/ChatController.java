@@ -17,14 +17,12 @@ public class ChatController {
 
     private SimpMessagingTemplate simpMessagingTemplate;
 
-
     @MessageMapping("/message")
     @SendTo("/chatroom/public")
     public Message receiveMessage(@RequestBody Message message) throws InterruptedException {
         System.out.println(message);
         return message;
     }
-
     @MessageMapping("/private-message")
     public Message privateMessage(@RequestBody Message message){
         simpMessagingTemplate.convertAndSendToUser(message.getReceiverName(),"/private",message);

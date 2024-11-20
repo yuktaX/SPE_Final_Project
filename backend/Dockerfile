@@ -1,4 +1,4 @@
-# Use the base OpenJDK 17 image
+# Use the base OpenJDK 21 image
 FROM openjdk:21-jdk-slim AS builder
 
 # Set the working directory in the container
