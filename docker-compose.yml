@@ -8,7 +8,7 @@ services:
       - "8081:8081"
 
   frontend:
-    image: chinmay1104/frontend:latest
+    image: yuktax/frontend:latest
     container_name: frontend_container
     ports:
       - "3000:3000"
