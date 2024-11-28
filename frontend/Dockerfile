@@ -13,17 +13,20 @@ RUN npm install
 # Copy the rest of the application files
 COPY . .
 
-# Build the application for production
-RUN npm run build
+# # Build the application for production
+# RUN npm run build
 
-# Install a lightweight HTTP server
-RUN npm install -g serve
+# # Install a lightweight HTTP server
+# RUN npm install -g serve
 
 # Expose the port Vite will serve on
 EXPOSE 4173
 
 # Serve the production build
-CMD ["serve", "-s", "dist", "-l", "4173"]
+# CMD ["serve", "-s", "dist", "-l", "4173"]
+
+# Set the command to start your application
+CMD ["npm", "run", "dev"]
 
 
 # Use Node.js v20 as the base image
