@@ -1,14 +1,18 @@
-version: "3.8"
-
 services:
   backend:
     image: yuktax/backend:latest
     container_name: backend_container
     ports:
       - "8081:8081"
+    networks:
+      - app_network
 
   frontend:
     image: yuktax/frontend:latest
     container_name: frontend_container
     ports:
       - "3000:3000"
+    networks:
+      - app_network
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8081 # Use the backend service name

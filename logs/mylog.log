@@ -1,0 +1,117 @@
+[2024-11-28 10:19:12,030] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 6772 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 10:19:12,033] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 10:19:12,932] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 10:19:12,941] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:19:12,943] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 10:19:12,943] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 10:19:12,975] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 10:19:12,976] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 853 ms
+[2024-11-28 10:19:13,294] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:19:13,302] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 8081 (http) with context path ''
+[2024-11-28 10:19:13,303] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Starting...
+[2024-11-28 10:19:13,304] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@217bf99e]]
+[2024-11-28 10:19:13,305] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Started.
+[2024-11-28 10:19:13,310] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started ChatroomBackendApplication in 1.565 seconds (process running for 1.973)
+[2024-11-28 10:20:13,295] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [154] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2024-11-28 10:34:13,192] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopping...
+[2024-11-28 10:34:13,192] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@217bf99e]]
+[2024-11-28 10:34:13,193] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopped.
+[2024-11-28 10:41:35,357] [] [] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 21297 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 10:41:35,360] [] [] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 10:41:36,124] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 10:41:36,133] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:41:36,135] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 10:41:36,135] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 10:41:36,167] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 10:41:36,168] [] [] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 764 ms
+[2024-11-28 10:41:36,483] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:41:36,491] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 8081 (http) with context path ''
+[2024-11-28 10:41:36,493] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Starting...
+[2024-11-28 10:41:36,494] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2954f6ab]]
+[2024-11-28 10:41:36,495] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Started.
+[2024-11-28 10:41:36,500] [] [] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started ChatroomBackendApplication in 1.449 seconds (process running for 1.939)
+[2024-11-28 10:42:36,488] [] [] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [154] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2024-11-28 10:43:12,806] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopping...
+[2024-11-28 10:43:12,807] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2954f6ab]]
+[2024-11-28 10:43:12,807] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopped.
+[2024-11-28 10:43:47,173] [] [] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 23047 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 10:43:47,176] [] [] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 10:43:47,914] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 10:43:47,922] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:43:47,924] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 10:43:47,925] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 10:43:47,956] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 10:43:47,957] [] [] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 733 ms
+[2024-11-28 10:43:48,264] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 10:43:48,271] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 8081 (http) with context path ''
+[2024-11-28 10:43:48,273] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Starting...
+[2024-11-28 10:43:48,274] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@58fbd02e]]
+[2024-11-28 10:43:48,275] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Started.
+[2024-11-28 10:43:48,280] [] [] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started ChatroomBackendApplication in 1.385 seconds (process running for 1.79)
+[2024-11-28 10:44:48,279] [] [] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [154] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2024-11-28 10:47:21,711] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopping...
+[2024-11-28 10:47:21,712] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@58fbd02e]]
+[2024-11-28 10:47:21,712] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopped.
+[2024-11-28 11:43:35,459] [] [] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 67295 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 11:43:35,462] [] [] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 11:43:36,218] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 11:43:36,225] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:43:36,227] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 11:43:36,227] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 11:43:36,256] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 11:43:36,257] [] [] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 757 ms
+[2024-11-28 11:43:36,572] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:43:36,576] [] [] [org.springframework.context.support.AbstractApplicationContext] [main] [632] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2024-11-28 11:43:36,587] [] [] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger] [main] [82] [INFO ] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-11-28 11:43:36,597] [] [] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [main] [40] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[2024-11-28 11:44:27,038] [] [] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 68185 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 11:44:27,040] [] [] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 11:44:27,808] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 11:44:27,815] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:44:27,817] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 11:44:27,817] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 11:44:27,853] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 11:44:27,854] [] [] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 774 ms
+[2024-11-28 11:44:28,183] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:44:28,200] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 8081 (http) with context path ''
+[2024-11-28 11:44:28,201] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Starting...
+[2024-11-28 11:44:28,202] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@11d045b4]]
+[2024-11-28 11:44:28,203] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Started.
+[2024-11-28 11:44:28,208] [] [] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started ChatroomBackendApplication in 1.464 seconds (process running for 1.904)
+[2024-11-28 11:45:28,186] [] [] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [154] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2024-11-28 11:48:10,945] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopping...
+[2024-11-28 11:48:10,945] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@11d045b4]]
+[2024-11-28 11:48:10,945] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopped.
+[2024-11-28 11:48:29,785] [] [] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting ChatroomBackendApplication using Java 21.0.5 with PID 71238 (/home/yukta/College/sem7/SPE/SPE_Final_Project/backend/target/classes started by yukta in /home/yukta/College/sem7/SPE/SPE_Final_Project/backend)
+[2024-11-28 11:48:29,787] [] [] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-11-28 11:48:30,528] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 8081 (http)
+[2024-11-28 11:48:30,535] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:48:30,537] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-11-28 11:48:30,537] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-11-28 11:48:30,569] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-11-28 11:48:30,570] [] [] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 743 ms
+[2024-11-28 11:48:30,868] [] [] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8081"]
+[2024-11-28 11:48:30,879] [] [] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 8081 (http) with context path ''
+[2024-11-28 11:48:30,881] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Starting...
+[2024-11-28 11:48:30,883] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7a3b7122]]
+[2024-11-28 11:48:30,884] [] [] [org.springframework.core.log.CompositeLog] [main] [117] [INFO ] Started.
+[2024-11-28 11:48:30,892] [] [] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started ChatroomBackendApplication in 1.374 seconds (process running for 1.699)
+[2024-11-28 11:49:30,875] [] [] [org.springframework.web.socket.config.WebSocketMessageBrokerStats] [MessageBroker-1] [154] [INFO ] WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[2024-11-28 11:56:59,415] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopping...
+[2024-11-28 11:56:59,415] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7a3b7122]]
+[2024-11-28 11:56:59,415] [] [] [org.springframework.core.log.CompositeLog] [SpringApplicationShutdownHook] [117] [INFO ] Stopped.
