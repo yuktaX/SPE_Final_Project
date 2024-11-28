@@ -18,7 +18,7 @@ export const ChatPage = () => {
     setMessages((prev) => [temp, ...prev]);
   }
   function connect() {
-    let socket = new SockJS("http://localhost:8080/ws");
+    let socket = new SockJS("http://localhost:8081/ws");
 
     stompClient = Stomp.over(socket);
 

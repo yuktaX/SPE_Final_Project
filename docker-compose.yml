@@ -15,4 +15,8 @@ services:
     networks:
       - app_network
     environment:
-      - REACT_APP_BACKEND_URL=http://localhost:8081 # Use the backend service name
+      - REACT_APP_BACKEND_URL=http://backend:8081 # Use the backend service name
+
+networks:
+  app_network:
+    driver: bridge
