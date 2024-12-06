@@ -25,6 +25,25 @@
       command: docker compose -f ../docker-compose.yml up -d
       when: inventory_hostname == 'localhost'
 
+    - name: Apply Kubernetes Manifests
+      command: kubectl apply -f {{ item }}
+      with_items:
+        - backend-deployment.yaml
+        - backend-service.yaml
+        - frontend-deployment.yaml
+        - frontend-service.yaml
+
+    # The following is for clean-up.
+    # Not sure if it will work correctly
+
+    # - name: Clean Kubernetes Manifests
+    #   command: kubectl delete -f {{ item }}
+    #   with_items:
+    #     - backend-deployment.yaml
+    #     - backend-service.yaml
+    #     - frontend-deployment.yaml
+    #     - frontend-service.yaml
+
     # - name: Run Docker Compose on remote
     #   command: docker-compose -f "{{ docker_compose_file }}" up -d
     #   when: inventory_hostname != 'localhost'
