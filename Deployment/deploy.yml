@@ -33,6 +33,12 @@
         - frontend-deployment.yaml
         - frontend-service.yaml
 
+    - name: Apply HPA Manifests
+      command: kubectl apply -f {{ item }}
+      with_items:
+        - backend-hpa.yaml
+        - frontend-hpa.yaml
+
     # The following is for clean-up.
     # Not sure if it will work correctly
 
