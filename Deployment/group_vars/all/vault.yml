@@ -1,0 +1,3 @@
+---
+ansible_user: myuser
+docker_compose_file: /home/myuser/docker-compose.yml

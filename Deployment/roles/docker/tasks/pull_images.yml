@@ -1,0 +1,10 @@
+---
+- name: Pull backend image
+  docker_image:
+    name: yuktax/backend:latest
+    source: pull
+
+- name: Pull frontend image
+  docker_image:
+    name: yuktax/frontend:latest
+    source: pull
