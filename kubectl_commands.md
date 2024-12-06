@@ -39,6 +39,9 @@ kubectl get hpa
 
 ```bash
 kubectl port-forward service/frontend 3000:3000
+```
+
+```bash
 kubectl port-forward service/backend 8081:8081
 ```
 
