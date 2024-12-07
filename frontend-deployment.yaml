@@ -25,15 +25,21 @@ spec:
         io.kompose.service: frontend
     spec:
       containers:
-      - env:
-        - name: REACT_APP_BACKEND_URL
-          value: http://backend:8081
-        image: yuktax/frontend:latest
-        imagePullPolicy: ""
-        name: frontend-container
-        ports:
-        - containerPort: 3000
-        resources: {}
+        - env:
+            - name: REACT_APP_BACKEND_URL
+              value: http://backend:8081
+          image: yuktax/frontend:latest
+          imagePullPolicy: ""
+          name: frontend-container
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
       restartPolicy: Always
       serviceAccountName: ""
       volumes: null

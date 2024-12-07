@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 services:
   backend:
     image: yuktax/backend:latest
-    container_name: backend_container  # Kompose will ignore this, but for reference.
+    container_name: backend_container # Kompose will ignore this, but for reference.
     ports:
       - "8081:8081"
     networks:
@@ -12,7 +12,7 @@ services:
 
   frontend:
     image: yuktax/frontend:latest
-    container_name: frontend_container  # Kompose will ignore this, but for reference.
+    container_name: frontend_container # Kompose will ignore this, but for reference.
     ports:
       - "3000:3000"
     networks:
