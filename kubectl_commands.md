@@ -51,7 +51,7 @@ kubectl port-forward service/backend 8081:8081
 kubectl get pods --watch
 ```
 
-# Important commands for Kubernetes+Minikube on Jenkins server
+# Run these before executing pipeline - Setup K8s on Jenkins
 
 ```bash
 minikube start
