@@ -6,7 +6,7 @@
   when: inventory_hostname != 'localhost'
 
 - name: Run Docker Compose on localhost
-  command: docker compose -f ../docker-compose.yml up -d
+  command: docker compose -f ../templates/docker-compose.yml up -d
   when: inventory_hostname == 'localhost'
 # Uncomment for remote hosts
 # - name: Run Docker Compose on remote
