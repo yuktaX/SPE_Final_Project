@@ -42,35 +42,35 @@ pipeline{
             }
         }
 
-                stage('Stage 5: Apply Kubernetes Manifests') {
-            steps {
-                script {
-                    // Apply backend deployment and service
-                    sh 'kubectl apply -f backend-deployment.yaml'
-                    sh 'kubectl apply -f backend-service.yaml'
+        // stage('Stage 5: Apply Kubernetes Manifests') {
+        //     steps {
+        //         script {
+        //             // Apply backend deployment and service
+        //             sh 'kubectl apply -f backend-deployment.yaml'
+        //             sh 'kubectl apply -f backend-service.yaml'
 
-                    // Apply frontend deployment and service
-                    sh 'kubectl apply -f frontend-deployment.yaml'
-                    sh 'kubectl apply -f frontend-service.yaml'
+        //             // Apply frontend deployment and service
+        //             sh 'kubectl apply -f frontend-deployment.yaml'
+        //             sh 'kubectl apply -f frontend-service.yaml'
 
-                    // Apply Horizontal Pod Autoscaler
-                    sh 'kubectl apply -f frontend-hpa.yaml'
-                }
-            }
-        }
+        //             // Apply Horizontal Pod Autoscaler
+        //             sh 'kubectl apply -f frontend-hpa.yaml'
+        //         }
+        //     }
+        // }
 
-        stage('Stage 6: Wait for Frontend Pod to be Ready') {
-            steps {
-                script {
-                    // Wait for frontend pod to be ready
-                    sh '''
-                        kubectl wait --for=condition=ready pod -l app=frontend --timeout=600s
-                    '''
-                }
-            }
-        }
+        // stage('Stage 6: Wait for Frontend Pod to be Ready') {
+        //     steps {
+        //         script {
+        //             // Wait for frontend pod to be ready
+        //             sh '''
+        //                 kubectl wait --for=condition=ready pod -l app=frontend --timeout=600s
+        //             '''
+        //         }
+        //     }
+        // }
 
-        stage('Stage 7: Clean Docker Images') {
+        stage('Stage 5: Clean Docker Images') {
             steps {
                 script {
                     sh 'docker container prune -f'
@@ -79,16 +79,16 @@ pipeline{
             }
         }
 
-        stage('Stage 8: Verify Kubernetes Pods and Services') {
-            steps {
-                script {
-                    // Check status of the pods to verify they are running
-                    sh 'kubectl get pods'
+        // stage('Stage 8: Verify Kubernetes Pods and Services') {
+        //     steps {
+        //         script {
+        //             // Check status of the pods to verify they are running
+        //             sh 'kubectl get pods'
                     
-                    // Check the status of services to ensure frontend is accessible
-                    sh 'kubectl get services'
-                }
-            }
-        }
+        //             // Check the status of services to ensure frontend is accessible
+        //             sh 'kubectl get services'
+        //         }
+        //     }
+        // }
     }
 }
