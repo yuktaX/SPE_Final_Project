@@ -7,4 +7,4 @@
     - frontend-deployment.yaml
     - frontend-service.yaml
   environment:
-    KUBECONFIG: /home/yukta/.kube/config
+    KUBECONFIG: /var/lib/jenkins/.kube/config
