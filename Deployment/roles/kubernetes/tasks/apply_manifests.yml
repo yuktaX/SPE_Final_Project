@@ -1,6 +1,6 @@
 ---
 - name: Apply Kubernetes Manifests
-  command: kubectl apply -f {{ item }}
+  command: kubectl apply -f {{ playbook_dir }}/roles/kubernetes/files/{{ item }}
   with_items:
     - backend-deployment.yaml
     - backend-service.yaml
