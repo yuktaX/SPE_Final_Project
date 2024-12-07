@@ -1,8 +1,4 @@
 ---
-- name: Set KUBECONFIG environment variable
-  environment:
-    KUBECONFIG: /home/yukta/.kube/config
-
 - name: Apply Kubernetes Manifests
   command: kubectl apply -f {{ playbook_dir }}/roles/kubernetes/files/{{ item }}
   with_items:
@@ -10,3 +6,5 @@
     - backend-service.yaml
     - frontend-deployment.yaml
     - frontend-service.yaml
+  environment:
+    KUBECONFIG: /home/yukta/.kube/config
