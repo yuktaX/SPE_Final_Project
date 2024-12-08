@@ -18,7 +18,7 @@ services:
     networks:
       - app_network
     environment:
-      - REACT_APP_BACKEND_URL=http://backend:8081
+      - REACT_APP_BACKEND_URL=http://172.17.0.2:30008
 
 networks:
   app_network:

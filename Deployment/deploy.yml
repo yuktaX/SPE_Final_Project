@@ -4,5 +4,5 @@
   vars_files:
     - group_vars/all/vault.yml # Includes sensitive variables
   roles:
-    # - docker
+    - docker
     - kubernetes
