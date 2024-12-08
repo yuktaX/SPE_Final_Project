@@ -97,7 +97,11 @@ sudo chmod -R 755 /home/{user}/.minikube/profiles/minikube
 
 Then run the previous cmd to grant jenkins user permission.
 
-You should see a successful connection.
+You should see a successful connection. To run the application, this should show you where the backend and frontend is running along with the urls. Open the URL mentioned.
+
+```bash
+minikube service list
+```
 
 ```
 
