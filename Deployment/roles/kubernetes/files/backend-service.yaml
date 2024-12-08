@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: backend
   name: backend
 spec:
+  type: NodePort # Expose this service to external traffic
   ports:
     - name: "8081"
       port: 8081
