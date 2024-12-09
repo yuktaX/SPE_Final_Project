@@ -1,4 +1,4 @@
-# Important commands for Kubernetes+Minikube on local setup
+# Commands for Kubernetes+Minikube on local setup
 
 ## Start Minikube (Kubernetes cluster instance)
 
@@ -51,7 +51,7 @@ kubectl port-forward service/backend 8081:8081
 kubectl get pods --watch
 ```
 
-# Run these before executing pipeline - Setup K8s on Jenkins
+# Setup K8s on Jenkins - Run these before executing Jenkins Pipeline
 
 ```bash
 minikube start
