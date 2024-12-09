@@ -33,3 +33,14 @@ kubectl port-forward --namespace monitoring service/loki-grafana 3000:80
 ```bash
 kubectl port-forward svc/loki -n monitoring 3100:3100
 ```
+
+Then open the port grafana is running on - localhost:3000. It will propmt a username and password. Username is 'admin'. To get the password run the below cmd. It will display the password.
+
+```bash
+kubectl get secret loki-grafana -n monitoring -o jsonpath="{.data.admin-password}" | base64 --decode
+```
+
+Once logged in. Go to Sidemenu > Connections > Data Sources > Loki/Prometheus > Test > Explore
+
+A dashboard will appear where you can play around the labels and observe the monitoring.
+
