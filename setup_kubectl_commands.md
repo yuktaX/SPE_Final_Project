@@ -102,7 +102,3 @@ You should see a successful connection. To run the application, this should show
 ```bash
 minikube service list
 ```
-
-```
-
-```

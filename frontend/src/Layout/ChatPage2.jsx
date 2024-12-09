@@ -99,8 +99,8 @@ export const ChatPage2 = () => {
 
   const connect = () => {
     //let sock = new SockJS("http://localhost:8081/ws");
-    let sock = new SockJS("http://192.168.49.2:30008/ws");
-    // let sock = new SockJS("http://172.17.0.2:30008/ws");
+    //let sock = new SockJS("http://192.168.49.2:30008/ws");
+    let sock = new SockJS("http://172.17.0.2:30008/ws");
     stompClient = over(sock);
     stompClient.connect({}, onConnect, onError);
   };
